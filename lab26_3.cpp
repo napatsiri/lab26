@@ -3,10 +3,9 @@
 
 using namespace std;
 
-int count(int data[], int n)
-{
-	set<int> myset (data, data + n);
-	return myset.size();
+int count(int data[], int n){
+  	set<int> Set(data, data + n);
+  	return Set.size();
 }
 
 int main(){	
